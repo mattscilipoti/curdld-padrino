@@ -7,6 +7,7 @@ GEM
       minitest (~> 5.1)
       thread_safe (~> 0.1)
       tzinfo (~> 1.1)
+    bcrypt (3.1.9)
     diff-lcs (1.2.5)
     http_router (0.11.1)
       rack (>= 1.0.0)
@@ -97,6 +98,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  bcrypt
   padrino (= 0.12.4)
   pg
   rack-test
