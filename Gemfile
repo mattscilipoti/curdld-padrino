@@ -33,3 +33,7 @@ gem 'padrino', '0.12.4'
 # %w(core support gen helpers cache mailer admin).each do |g|
 #   gem 'padrino-' + g, '0.12.4'
 # end
+
+# Console requirements
+gem 'awesome_print'
+gem 'pry-byebug'
